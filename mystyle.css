@@ -2,6 +2,7 @@ h1 {color: blue;}
 
 th, td { border: dashed thick black; }
 
+h1 {color:#F0A050}
 th.important { color: red; }
 
 p.sample1 {border: double 10px #0000ff;}
