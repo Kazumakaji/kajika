@@ -1,4 +1,4 @@
-//alrt('Hello,Osamu!');
+alert('Hello,Kazuma!');
 
 //alert(1+1);
 
