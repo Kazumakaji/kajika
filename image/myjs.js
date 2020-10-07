@@ -1,5 +1,4 @@
-      
- alert('Hello,Kazuma!');
+alert('Hello,Kazuma!');
 
 alert(1+1);
 
