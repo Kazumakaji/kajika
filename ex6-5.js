@@ -1,15 +1,15 @@
 function sayhello2(){
-    var  who= '太郎';'花子';
+    var  who= 'world';'太郎';'花子';
     alert('Hello, ' + who + '!');
 }
 
 function taro(){
     who = '太郎';
-    alert('が来た');
+    alert('太郎が来た');
 }
 
 function hanako(){
     who = '花子';
-    alert('が来た');
+    alert('花子が来た');
 }
 
