@@ -1,5 +1,5 @@
 function sayhello2(){
-    var  who= 'world';'太郎';'花子';
+    var  who='world';'太郎';'花子';
     alert('Hello, ' + who + '!');
 }
 
