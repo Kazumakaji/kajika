@@ -1,2 +1,6 @@
-var img = document.getElementById("picture69");
-img.src="./image/keiei_small.jpg";
+function txtchange1(){
+    document.getElementById("txt1").innerHTML = "ナンバーワン！";
+}
+
+function imgchange1(){
+    document.getElementById("image1").innerHTML = "./image/kuma.jpg";
