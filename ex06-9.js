@@ -3,5 +3,5 @@ function txtchange1(){
 }
 
 function imgchange1(){
-    document.getElementById("image1").innerHTML = "./image/kuma.jpg";
+    document.getElementById("logo").src = "./image/kuma.jpg";
 }
