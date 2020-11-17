@@ -4,3 +4,4 @@ function txtchange1(){
 
 function imgchange1(){
     document.getElementById("image1").innerHTML = "./image/kuma.jpg";
+}
