@@ -1,3 +1,3 @@
 function imgchange1() {
-    document.getElementById('logo').src= './image/kuma.jpg';
+    document.getElementById('logo').src= './image/kuma.png';
 }
