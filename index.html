@@ -16,7 +16,7 @@
 <body>
   <!--文字の大きさの練習-->
   <br>
-  <h1>練習問題2.2</h1>
+  <!--<h1>練習問題2.2</h1>
   <br>
 <h1>Hello World</h1>
   <h2>Hello World</h2>
@@ -215,22 +215,23 @@ href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a><
 </ul>
 </nav>
 
-<!--<h1>イベントハンドラの練習</h1>
+<h1>イベントハンドラの練習</h1>
 
 <input type="button" value="ここをクリック" 
 ondblclick="alert('Hello,Kazuma!');">-->
-
+<h1>練習6-2 3</h1>
 <input type="button" value="ここをクリック" 
 onclick="sayhello61();sayhello61();">
+<h2>練習6-4</h2>
 <input type= "button" value="ここをクリック" 
 onclick="saygoodbye();">
 
-<h1>変数の練習</h1>
+<h1>変数の練習65</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
 <input type="button" value="太郎" onclick="taro65();gakita();">
 <input type="button" value="花子" onclick="hanako65();gakita();">
 
-<h1>引数の練習</h1>
+<h1>引数の練習67</h1>
 <input type="button" value="あいさつ" onclick="sayhello67();">
 <input type="button" value="太郎" onclick="someone('太郎');">
 <input type="button" value="花子" onclick="someone('花子');">
@@ -239,7 +240,7 @@ onclick="saygoodbye();">
 <input type="button" value="シンジ" onclick="someone('シンジ');">
 <input type="button" value="アスカ" onclick="someone('アスカ');">
 <br>
-<h1>JavaScriptによる変更の練習</h1>
+<h1>JavaScriptによる変更の練習68</h1>
 <input type="button" value="あいさつ" onclick="sayhello();">
 <input type="button" value="太郎" onclick="taro();">
 <input type="button" value="花子" onclick="hanako();">
@@ -249,17 +250,16 @@ onclick="saygoodbye();">
 <div id="txt1">
 <input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
     <br>
-<h1>ページの変更610</h1>
+<h1>画像の変更610</h1>
 <div id="image1">
         <input type="button" value="画像の変更" onclick="imgchange1();">
         <img src='./image/josai.png' id="logo"alt="Josai Logo"> </div>>
-        setTimeout('alert("3 seconds have passed");',3000);
         <br>  
   <br>
    <h1>タイマーイベントによる実行の応用611</h1>
   <div id="back">
       <input type="button" value="変更後3秒でまた戻る" 
-             onclick="ChangeImageAndBack();">
+             onclick="setTimeout('ChangeImageAndBack()',3000)">
     
   <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
   </div>
