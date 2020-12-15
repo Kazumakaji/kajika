@@ -11,6 +11,8 @@
   <script src="ex06-8.js"></script>
   <script src="ex06-9.js"></script>
    <script src="ex06-10.js"></script>
+   <script src="ex06-11.js"></script>
+
   <!--<script src="Myjs.js"></script>-->
   </head>
 <body>
@@ -253,16 +255,20 @@ onclick="saygoodbye();">
 <h1>画像の変更610</h1>
 <div id="image1">
         <input type="button" value="画像の変更" onclick="imgchange1();">
-        <img src='./image/josai.png' id="logo"alt="Josai Logo"> </div>>
+        <img src='./image/josai.png' id="logo"alt="Josai Logo"> </div>
         <br>  
   <br>
    <h1>タイマーイベントによる実行の応用611</h1>
-  <div id="back">
+  <!--<div id="back">
       <input type="button" value="変更後3秒でまた戻る" 
-             onclick="setTimeout('ChangeImageAndBack()',3000)">
-    
-  <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
-  </div>
+             onclick="setTimeout('ChangeImageAndBack()',3000)">-->
+<div id="three">
+        <input type="button" value="3秒後画像の変更" onclick="setTimeout(imgchange2,3000)">
+        <img src='./image/kuma.png' id="change"alt="Josai Logo"> </div>
+        <br>  
+
+  <!--<img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
+  </div>-->
   
 
 </body>
